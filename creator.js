@@ -5,6 +5,7 @@ const charts = {
   bar: () => import('./charts/bar-chart'),
   line: () => import('./charts/line-chart'),
   pie: () => import('./charts/pie-chart'),
+  'horizontal-bar': () => import('./charts/horizontal-bar-chart'),
 };
 
 export const paintChart = async (
